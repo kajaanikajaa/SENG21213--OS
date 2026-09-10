@@ -1,0 +1,10 @@
+[33m7d17241[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv0.5-stage4[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Stage 4 complete: RAM disk file system
+ Makefile         |  20 [32m+[m[31m-[m
+ README.md        | 111 [32m++++[m[31m-[m
+ boot/boot.asm    |   4 [32m+[m[31m-[m
+ kernel/fs.c      | 812 [32m++++++++++++++++++++++++++++++++++++[m
+ kernel/fs.h      |  67 [32m+++[m
+ kernel/kernel.c  | 461 [32m+++++++++++++++++++[m[31m-[m
+ kernel/ramdisk.c | 140 [32m+++++++[m
+ kernel/ramdisk.h |  15 [32m+[m
+ 8 files changed, 1616 insertions(+), 14 deletions(-)
